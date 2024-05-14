@@ -9,7 +9,7 @@ axios.defaults.headers.common.Accept = "application/json";
 axios.defaults.params = {};
 axios.defaults.params["password"] = "test1234";
 axios.defaults.withCredentials = true;
-axios.defaults.baseURL = "http://134.94.243.241:8080/";
+axios.defaults.baseURL = "";
 axios.get("sanctum/csrf-cookie");
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
